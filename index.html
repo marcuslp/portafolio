@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcos Lopez Pascual — Backend Developer</title>
+<meta name="description" content="Portafolio de Marcos Lopez Pascual, Backend Developer especializado en Kotlin y Java, con experiencia en sistemas fintech y banca digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="mark">ML<span class="mark-dot">·</span>P</a>
+
+    <nav class="nav" id="nav">
+      <a href="#perfil" class="nav-link">Perfil</a>
+      <a href="#experiencia" class="nav-link">Experiencia</a>
+      <a href="#stack" class="nav-link">Stack</a>
+      <a href="#educacion" class="nav-link">Educación</a>
+      <a href="#contacto" class="nav-link">Contacto</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap" id="hero">
+    <div class="hero-copy">
+      <p class="kicker">Backend Developer — Kotlin / Java</p>
+      <h1 class="hero-title">Marcos Lopez Pascual</h1>
+      <p class="hero-lede">
+        Construyo los sistemas que corren por debajo de productos financieros:
+        APIs de alto volumen transaccional, arquitecturas orientadas a eventos
+        y la infraestructura que no se ve, pero que no puede fallar.
+      </p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Contáctame</a>
+        <a href="#experiencia" class="btn btn-ghost">Ver experiencia</a>
+      </div>
+    </div>
+
+    <aside class="readout" aria-label="Resumen profesional">
+      <div class="readout-head">
+        <span class="dot dot-live" aria-hidden="true"></span>
+        <span class="readout-title">estado_actual.log</span>
+      </div>
+      <dl class="readout-body">
+        <div class="readout-row">
+          <dt>experiencia</dt>
+          <dd>9+ años</dd>
+        </div>
+        <div class="readout-row">
+          <dt>rol</dt>
+          <dd>Backend Developer</dd>
+        </div>
+        <div class="readout-row">
+          <dt>stack</dt>
+          <dd>Kotlin · Java · Spring</dd>
+        </div>
+        <div class="readout-row">
+          <dt>sector</dt>
+          <dd>Fintech &amp; Banca digital</dd>
+        </div>
+        <div class="readout-row">
+          <dt>ubicación</dt>
+          <dd>Ciudad de México</dd>
+        </div>
+        <div class="readout-row">
+          <dt>disponibilidad</dt>
+          <dd class="ok">abierto a proyectos</dd>
+        </div>
+      </dl>
+    </aside>
+  </section>
+
+  <!-- PERFIL -->
+  <section class="section" id="perfil">
+    <div class="wrap section-grid">
+      <div class="section-label">
+        <h2>Perfil</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Soy Ingeniero en Sistemas Computacionales con más de 9 años de experiencia
+          desarrollando software backend en el sector financiero. La mayor parte de mi
+          carrera la he construido en Kotlin y Java, diseñando componentes y APIs que
+          soportan procesos transaccionales de alto volumen en productos de banca digital.
+        </p>
+        <p>
+          Trabajo cómodo con arquitecturas orientadas a eventos usando Apache Kafka,
+          integración de gateways como capa de backend for frontend, y con el ciclo
+          completo de vida del software: desde el diseño hasta el mantenimiento en
+          producción. También me ha tocado dar onboarding técnico y acompañar a
+          desarrolladores que se integran al equipo.
+        </p>
+        <p>
+          Actualmente exploro cómo la IA se integra al flujo de desarrollo diario,
+          usándola como herramienta de trabajo en lugar de solo como curiosidad.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="section" id="experiencia">
+    <div class="wrap section-grid">
+      <div class="section-label">
+        <h2>Experiencia</h2>
+      </div>
+
+      <div class="section-content">
+        <ol class="timeline">
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-dates">Sep 2019 — Presente</span>
+                <span class="timeline-place">Polanco, Ciudad de México</span>
+              </div>
+              <h3 class="timeline-role">Backend Developer — Kotlin / Java</h3>
+              <p class="timeline-company">RappiPay</p>
+              <p class="timeline-context">
+                Mega startup de consumo de alto crecimiento con foco en convertirse
+                en la principal Banca Digital de América Latina.
+              </p>
+              <ul class="timeline-list">
+                <li>Desarrollo y entrega de nuevas features siguiendo buenas prácticas, metodologías ágiles y controles de calidad a lo largo de todo el ciclo de vida del software.</li>
+                <li>Diseño e implementación de APIs RESTful y componentes en Kotlin/Java bajo una arquitectura orientada a eventos con Apache Kafka, dando soporte a procesos transaccionales de alto volumen.</li>
+                <li>Implementación de KrakenD como API Gateway (capa BFF) para apps iOS y Android, permitiendo cambios de experiencia de usuario sin necesidad de nuevos despliegues a las tiendas.</li>
+                <li>Diseño de soluciones de optimización de performance en procesos transaccionales críticos, además de mantenimiento y atención a incidentes en producción.</li>
+                <li>Adopción de herramientas de IA (Windsurf) en el flujo de desarrollo del equipo.</li>
+                <li>Onboarding técnico y asesoría a nuevos integrantes del equipo.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-dates">Oct 2016 — Sep 2019</span>
+                <span class="timeline-place">Ciudad de México</span>
+              </div>
+              <h3 class="timeline-role">Developer Java</h3>
+              <p class="timeline-company">BBVA Bancomer</p>
+              <p class="timeline-context">
+                Grupo financiero global con modelo de negocio minorista centrado en el cliente.
+              </p>
+              <ul class="timeline-list">
+                <li>Desarrollo de WebServices SOAP y procesos batch para el procesamiento de archivos de gran volumen, sobre la arquitectura interna APX de BBVA, usando Java y Spring.</li>
+                <li>Implantación de prácticas de calidad de código mediante Jenkins, SonarQube y JUnit.</li>
+                <li>Liderazgo del proceso batch de migración de tablas de DB2 hacia MongoDB y Oracle, llevado exitosamente a producción.</li>
+                <li>Coaching y asesoría técnica a nuevos desarrolladores, además de mantenimiento y atención a incidentes productivos.</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section" id="stack">
+    <div class="wrap section-grid">
+      <div class="section-label">
+        <h2>Stack técnico</h2>
+      </div>
+
+      <div class="section-content">
+        <div class="stack-layers">
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">Lenguajes</p>
+            <div class="chips">
+              <span class="chip chip-primary">Kotlin</span>
+              <span class="chip chip-primary">Java</span>
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">Frameworks</p>
+            <div class="chips">
+              <span class="chip">Spring Boot</span>
+              <span class="chip">Spring MVC</span>
+              <span class="chip">Spring Batch</span>
+            </div>
+          </div>
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">Mensajería &amp; eventos</p>
+            <div class="chips">
+              <span class="chip">Apache Kafka</span>
+              <span class="chip">ActiveMQ</span>
+            </div>
+          </div>
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">Datos</p>
+            <div class="chips">
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">Oracle</span>
+              <span class="chip">Redis</span>
+            </div>
+          </div>
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">Infraestructura</p>
+            <div class="chips">
+              <span class="chip">Docker</span>
+              <span class="chip">Kubernetes</span>
+              <span class="chip">Jenkins</span>
+              <span class="chip">Gradle</span>
+            </div>
+          </div>
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">APIs &amp; integración</p>
+            <div class="chips">
+              <span class="chip">RESTful</span>
+              <span class="chip">KrakenD</span>
+              <span class="chip">SOAP</span>
+              <span class="chip">JSON</span>
+              <span class="chip">Postman</span>
+            </div>
+          </div>
+
+          <div class="stack-layer">
+            <p class="stack-layer-label">Calidad &amp; herramientas</p>
+            <div class="chips">
+              <span class="chip">JUnit</span>
+              <span class="chip">SonarQube</span>
+              <span class="chip">Git</span>
+              <span class="chip">Jira</span>
+              <span class="chip">Scrum</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCACION -->
+  <section class="section" id="educacion">
+    <div class="wrap section-grid">
+      <div class="section-label">
+        <h2>Educación</h2>
+      </div>
+      <div class="section-content">
+        <div class="edu-item">
+          <h3 class="edu-title">Ingeniería en Sistemas Computacionales</h3>
+          <p class="edu-meta">Instituto Tecnológico de Jesús Carranza · Ene 2014 — Ago 2019 · Jesús Carranza, Veracruz</p>
+        </div>
+
+        <div class="cert-list">
+          <div class="cert-item">
+            <span class="cert-name">Scrum Developer Certified (CSD)</span>
+            <span class="cert-meta">Ago 2019</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Scrum Fundamentals Certified</span>
+            <span class="cert-meta">Mar 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-contact" id="contacto">
+    <div class="wrap">
+      <p class="kicker kicker-light">Contacto</p>
+      <h2 class="contact-title">¿Hablamos de tu próximo proyecto?</h2>
+      <p class="contact-lede">
+        Escríbeme por correo o revisa mi código y mi trayectoria en los enlaces de abajo.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:lopezpascualmarcos@gmail.com" class="contact-link">
+          <span class="contact-link-label">Correo</span>
+          <span class="contact-link-value">lopezpascualmarcos@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/lopezpascualmarcos/" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <span class="contact-link-label">LinkedIn</span>
+          <span class="contact-link-value">/in/lopezpascualmarcos</span>
+        </a>
+        <a href="https://github.com/marcuslp" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <span class="contact-link-label">GitHub</span>
+          <span class="contact-link-value">@marcuslp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Marcos Lopez Pascual</span>
+    <span id="year"></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
